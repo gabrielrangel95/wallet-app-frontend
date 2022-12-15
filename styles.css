@@ -3,4 +3,161 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "Noto Sans", sans-serif;
+  color: #010400;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  color: #7c7c7c;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  color: #7c7c7c;
+}
+
+label {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #5936cd;
+  height: 56px;
+  width: 432px;
+  border-radius: 12px;
+  color: #f4f4f9;
+  font-weight: bold;
+  font-size: 16px;
+  border-color: #5936cd;
+  border-style: solid;
+}
+
+button.small {
+  border-width: 2px;
+  border-color: #5936cd;
+  border-style: solid;
+  background-color: #f4f4f9;
+  color: #010400;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 8px;
+  height: 36px;
+  width: 90px;
+}
+
+input {
+  width: 100%;
+  height: 48px;
+  border-color: #06bee1;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: transparent;
+  font-weight: 400;
+  color: #010400;
+  font-size: 16px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.mt {
+  margin-top: 16px;
+}
+
+.mt.larger {
+  margin-top: 32px;
+}
+
+.mt.large {
+  margin-top: 24px;
+}
+
+.mt.small {
+  margin-top: 12px;
+}
+
+.mt.smaller {
+  margin-top: 6px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.logo {
+  width: 88px;
+  height: auto;
+}
+
+.auth-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5936cd;
+}
+
+.auth-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+  height: auto;
+  min-height: 440px;
+  background-color: #f4f4f9;
+  border-radius: 24px;
+}
+
+.auth-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
 }
