@@ -108,6 +108,10 @@ th {
   color: #7c7c7c;
 }
 
+tr {
+  height: 32px;
+}
+
 th.right {
   text-align: right;
 }
