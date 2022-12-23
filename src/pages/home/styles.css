@@ -26,6 +26,13 @@
   width: auto;
 }
 
+.navbar-calendar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 260px;
+}
+
 .navbar-user-container {
   display: flex;
   flex-direction: row;
@@ -160,4 +167,12 @@ td.center {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.input-calendar {
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
 }
