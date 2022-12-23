@@ -94,6 +94,22 @@ input {
   font-size: 16px;
   padding: 6px;
   box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+select {
+  width: 100%;
+  height: 48px;
+  border-color: #06bee1;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: transparent;
+  font-weight: 400;
+  color: #010400;
+  font-size: 16px;
+  padding: 6px;
+  box-sizing: border-box;
 }
 
 .full-width {
