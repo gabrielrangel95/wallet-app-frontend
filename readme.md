@@ -1,6 +1,6 @@
 # Wallet App
 
-<img src="https://github.com/gabrielrangel95/wallet-app-frontend/blob/feat/v2/src/img/preview.png" alt="Wallet Preview" height="500">
+<img src="https://github.com/gabrielrangel95/wallet-app-frontend/blob/feat/v2/src/img/preview.png" alt="Wallet Preview" height="114" width="339">
 
 ## Introduction
 
